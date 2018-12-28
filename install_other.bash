@@ -20,6 +20,11 @@ sudo apt-get install chromium-browser
 #cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86" | tar xzf -
 #~/.dropbox-dist/dropboxd
 
+##GIMP
+#http://tipsonubuntu.com/2016/08/02/install-gimp-2-9-5-ubuntu-16-04/
+sudo add-apt-repository ppa:otto-kesselgulasch/gimp-edge
+sudo apt update && sudo apt install gimp gimp-gmic
+sudo apt install ppa-purge && sudo ppa-purge ppa:otto-kesselgulasch/gimp-edge
 
 ## Sublime Text 2
 sudo add-apt-repository ppa:webupd8team/sublime-text-2
