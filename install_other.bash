@@ -22,9 +22,11 @@ sudo apt-get install chromium-browser
 
 ##GIMP
 #http://tipsonubuntu.com/2016/08/02/install-gimp-2-9-5-ubuntu-16-04/
+sudo apt-get install software-properties-common
+sudo apt-get install ppa-purge
 sudo add-apt-repository ppa:otto-kesselgulasch/gimp-edge
-sudo apt update && sudo apt install gimp gimp-gmic
-sudo apt install ppa-purge && sudo ppa-purge ppa:otto-kesselgulasch/gimp-edge
+sudo apt-get update && sudo apt-get install gimp gimp-gmic
+sudo apt-get install ppa-purge && sudo ppa-purge ppa:otto-kesselgulasch/gimp-edge
 
 ## Sublime Text 2
 sudo add-apt-repository ppa:webupd8team/sublime-text-2
